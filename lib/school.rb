@@ -18,7 +18,6 @@ class School
 
   def sort
     @roster.map do |grade|
-        binding.pry
 
       grade.to_i.sort
       
