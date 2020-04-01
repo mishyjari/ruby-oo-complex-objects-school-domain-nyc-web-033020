@@ -19,7 +19,7 @@ class School
   def sort
     @roster.map do |grade|
 
-      grade.to_i.sort
+      puts grade
       
     end
   end
