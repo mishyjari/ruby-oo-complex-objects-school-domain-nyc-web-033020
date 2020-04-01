@@ -17,7 +17,7 @@ class School
   end
 
   def sort
-    @roster.map do |grade|
+    @roster.each do |grade|
 
       puts grade
       
