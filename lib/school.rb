@@ -16,4 +16,8 @@ class School
     @roster[grade].push(name)
   end
 
+  def sort
+    @roster.map |grade| do
+      @roster
+
 end
