@@ -15,5 +15,5 @@ class School
     end
     @roster[grade].push(name)
   end
-  binding.pry
+
 end
