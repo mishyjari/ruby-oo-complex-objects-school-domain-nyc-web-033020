@@ -21,5 +21,7 @@ class School
       grade.sort
     end
   end
+  
+  binding.pry
 
 end
