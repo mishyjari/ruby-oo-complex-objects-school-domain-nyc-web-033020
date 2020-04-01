@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   
   def initialize(name)
@@ -11,5 +13,5 @@ class School
     end
     @roster[grade].push(name)
   end
-  
+  binding.pry
 end
