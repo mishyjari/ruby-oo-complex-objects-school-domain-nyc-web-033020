@@ -18,7 +18,7 @@ class School
 
   def sort
     @roster.map do |grade|
-      grade.sort
+      grade.to_i.sort
     end
   end
   
